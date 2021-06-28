@@ -1,6 +1,6 @@
 import i18n from "i18next";
-import translate_en from "./translate/en/translate.json";
-import translate_vi from "./translate/vi/translate.json";
+import listTranslationEn from "./translate/en";
+import listTranslationVi from "./translate/vi";
 import { initReactI18next } from "react-i18next";
 
 i18n.use(initReactI18next).init({
@@ -15,10 +15,10 @@ i18n.use(initReactI18next).init({
   lng: localStorage.getItem("appLang") || "en",
   resources: {
     en: {
-      translate: translate_en,
+      translate: listTranslationEn,
     },
     vi: {
-      translate: translate_vi,
+      translate: listTranslationVi,
     },
   },
 });

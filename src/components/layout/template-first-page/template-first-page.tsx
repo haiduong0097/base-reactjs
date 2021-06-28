@@ -15,7 +15,13 @@ const TemplateFirstPage: FC = (): JSX.Element => {
   return (
     <>
       <div className={styles.demoStyle} onClick={() => {}}>
-        {translate(`app.demo.language`)}
+        {translate(`demo.text.language`)}
+      </div>
+      <div className={styles.demoStyle} onClick={() => {}}>
+        {translate(`message.MSG_001`)}
+      </div>
+      <div className={styles.demoStyle} onClick={() => {}}>
+        {translate(`error.ERR_001`)}
       </div>
       <div
         className={styles.linkRedirect}

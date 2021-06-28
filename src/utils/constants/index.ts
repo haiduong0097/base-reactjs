@@ -1,3 +1,1 @@
-export const LOCAL_STORAGE_TOKEN_NAME = "LOCAL_STORAGE_TOKEN_NAME";
-
-export const DEFAULT_DELAY = 3000;
+export * from "./common-constant";
